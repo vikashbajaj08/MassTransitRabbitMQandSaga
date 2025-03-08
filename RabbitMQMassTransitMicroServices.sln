@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{370412CB-ABA7-41CE-A77D-00E1B0DDAABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService", "ShippingService\ShippingService.csproj", "{EE665DEA-9610-401B-8A1D-8C426273892A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedMessages", "SharedMessages\SharedMessages.csproj", "{8537FD34-D93A-4C25-9128-CC0269E04995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{B2D14F91-90C6-42AC-92B2-5EBF5AEF43AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{B53E7599-40BE-4EF4-ACA2-44F8C35B7809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaOrchestrator", "SagaOrchestrator\SagaOrchestrator.csproj", "{B20F7BFD-D0D5-44C8-9704-EABEB3879DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundService", "RefundService\RefundService.csproj", "{5E485281-FD92-40A2-9A0A-C2467E515D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370412CB-ABA7-41CE-A77D-00E1B0DDAABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370412CB-ABA7-41CE-A77D-00E1B0DDAABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370412CB-ABA7-41CE-A77D-00E1B0DDAABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370412CB-ABA7-41CE-A77D-00E1B0DDAABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE665DEA-9610-401B-8A1D-8C426273892A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE665DEA-9610-401B-8A1D-8C426273892A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE665DEA-9610-401B-8A1D-8C426273892A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE665DEA-9610-401B-8A1D-8C426273892A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8537FD34-D93A-4C25-9128-CC0269E04995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8537FD34-D93A-4C25-9128-CC0269E04995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8537FD34-D93A-4C25-9128-CC0269E04995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8537FD34-D93A-4C25-9128-CC0269E04995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D14F91-90C6-42AC-92B2-5EBF5AEF43AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D14F91-90C6-42AC-92B2-5EBF5AEF43AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D14F91-90C6-42AC-92B2-5EBF5AEF43AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D14F91-90C6-42AC-92B2-5EBF5AEF43AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53E7599-40BE-4EF4-ACA2-44F8C35B7809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53E7599-40BE-4EF4-ACA2-44F8C35B7809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53E7599-40BE-4EF4-ACA2-44F8C35B7809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53E7599-40BE-4EF4-ACA2-44F8C35B7809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20F7BFD-D0D5-44C8-9704-EABEB3879DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20F7BFD-D0D5-44C8-9704-EABEB3879DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20F7BFD-D0D5-44C8-9704-EABEB3879DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20F7BFD-D0D5-44C8-9704-EABEB3879DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E485281-FD92-40A2-9A0A-C2467E515D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E485281-FD92-40A2-9A0A-C2467E515D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E485281-FD92-40A2-9A0A-C2467E515D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E485281-FD92-40A2-9A0A-C2467E515D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD686087-70A0-40C4-8784-CE48DF213A62}
+	EndGlobalSection
+EndGlobal
